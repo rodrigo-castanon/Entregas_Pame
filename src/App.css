@@ -2,19 +2,18 @@
   text-align: center;
 }
 
-.menu{
+.menu{{/*customizacao do botao dropdown*/}
   display:flex;
   justify-content: center;
-
 }
 .musica_texto{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight:bold;
   font-size: 20px;
-  color: white;
-  
-}
+  color: white; 
+}{/*customizacao do nome da musica*/}
+
 IMG.album_capa{
   display: block;
   margin-left: auto;
@@ -22,12 +21,12 @@ IMG.album_capa{
   margin-top:40px;
   background:none;
   border-radius: 10px;
-  border:2px solid white;
+  border:1px solid white;
   box-shadow: 2px 2px 10px  white;
   width: 270px;
   height: 300px;
+}{/*customizacao e alinhamento da capa do album*/}
 
-}
 .album_texto{
   display:flex;
   justify-content:center;
@@ -35,12 +34,9 @@ IMG.album_capa{
   font-size:15px; 
   color:white; 
   margin-bottom:5px; 
-}
-.album_capa{
-  text-align:center; 
-  width: 250px;
-  height: 300px;
-}
+}{/*customizacao do nome do album*/}
+
+
 
 .heart{
   background:none;
@@ -50,15 +46,13 @@ IMG.album_capa{
   font-weight: bold;
   margin-top:1px; 
   transition: all 0.2s;
-  
-
-}
+}{/*customizacao do botao de like*/}
 
 .heart:hover{
   background:white;
   color:gray;
-  box-shadow: 2px 2px 10px  white;
-}
+  box-shadow: 1px 1px 7px  white;
+}{/*customizacao do botao de like quando o mouse passa*/}
 
 .dots{
   background:none;
@@ -66,47 +60,40 @@ IMG.album_capa{
   border: 2px solid rgb(107, 106, 106);
   color:white;
   transition: all 0.2s;
-}
+}{/*customizacao do botao de tres pontos*/}
+
 .dots:hover{
   background:white;
   color:gray;
-  box-shadow: 2px 2px 10px  white;
+  box-shadow: 1px 1px 7px  white;
   border: 1px solid white;
+}{/*customizacao do botao de tres pontos quando o mouse passa*/}
 
-}
-
-.menu_inferior{
-  
+.menu_inferior{ 
   display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
-}
+}{/*espacamentos dos botoes de like e tres pontos*/}
 
 
 .play{
   display:flex;
   justify-content: space-around;
   margin-top:10px;
-  margin-bottom: 30px;
-  
-}
+  margin-bottom: 30px;  
+}{/*espacamento do botao de play/foward/back*/}
 
 .progressobarra{
   margin-top: 15px;
   margin-bottom:40px; 
   display:flex;
   justify-content: center;
-}
+}{/*espacamento da barra de progresso*/}
  
 
 body{
-  background-image: linear-gradient(to bottom right, black, rgb(138, 138, 138));
-}
-
-
-
-
-
+  background-image: linear-gradient(to bottom right, black, rgb(107, 107, 107));
+}{/*customizacao da cor do plano de fundo*/}
 
 @keyframes App-logo-spin {
   from {

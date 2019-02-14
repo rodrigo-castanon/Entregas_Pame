@@ -4,13 +4,14 @@
     border-radius:50px;
     border:1px solid white;
     background: white;
-}
+    box-shadow: 0.5px 0.5px 7px white;
+}{/*fazendo parte externa da barra de progresso*/}
 
 .filler{
-    background: #545454;
+    background: #0f0f0f;
     height:100%;
     width:75%; 
     border-radius:inherit;
     
-}
+}{/*fazendo parte interna da barra de progresso*/}
 
