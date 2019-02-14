@@ -1,0 +1,16 @@
+.progress_bar{
+    height:5px;
+    width:320px;
+    border-radius:50px;
+    border:1px solid white;
+    background: white;
+}
+
+.filler{
+    background: #545454;
+    height:100%;
+    width:75%; 
+    border-radius:inherit;
+    
+}
+
