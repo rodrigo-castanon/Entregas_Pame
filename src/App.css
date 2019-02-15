@@ -71,7 +71,8 @@ IMG.album_capa{
 .menu_inferior{ 
   display: flex;
   justify-content: space-around;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }{/*espacamentos dos botoes de like e tres pontos*/}
 
 
@@ -79,7 +80,7 @@ IMG.album_capa{
   display:flex;
   justify-content: space-around;
   margin-top:10px;
-  margin-bottom: 30px;  
+  margin-bottom: 70px;  
 }{/*espacamento do botao de play/foward/back*/}
 
 .progressobarra{

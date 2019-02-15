@@ -1,0 +1,22 @@
+.play2{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.play2 button{
+    height: 50px;
+    width: 50px;
+    background: none;
+    border:none;
+    color:white;
+    background-image: 
+
+}
+
+.play2 button:hover{
+background:white;
+  color:gray;
+  box-shadow: 1px 1px 7px  white;
+  border-radius:500px;
+}
